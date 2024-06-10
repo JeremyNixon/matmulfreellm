@@ -114,8 +114,6 @@ outputs = model.generate(input_ids, max_length=32,  do_sample=True, top_p=0.4, t
 print(tokenizer.batch_decode(outputs, skip_special_tokens=True)[0])
 ```
 
-
-
 # Citation
 If you find this repo useful, please consider citing our works:
 ```bib
@@ -126,3 +124,5 @@ journal={arXiv preprint arXiv:2406.02528},
 year={2024}
 }
 ```
+
+We have written a ![prepint of this work](https://arxiv.org/pdf/2406.02528) which is up on arxiv.
